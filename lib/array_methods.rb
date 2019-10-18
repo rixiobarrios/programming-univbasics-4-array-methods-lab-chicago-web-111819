@@ -1,9 +1,6 @@
 def using_include(array, element)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    if array.include?(element)
-    return true
-  else
-    return false
+  array.include?(element)
 end
 
 def using_sort(array)
